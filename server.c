@@ -89,7 +89,7 @@ int main(int argc, char **argv)
     if (argc == 2)
         return main_srv(argc, argv);
     else
-        printf("Usage: %s <port>\n Example %s 8080", argv[0], argv[0]);
+        printf("Usage: %s <port>\nExample: %s 8080\n", argv[0], argv[0]);
 
 
     return 0;
