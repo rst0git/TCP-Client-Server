@@ -48,7 +48,8 @@ int main(int argc, char **argv)
     if (argc == 3)
         main_cl(argc, argv);
     else
-        printf("Usage: %s <address> <port>\nExample: %s 127.0.0.1 8080");
+        printf("Usage: %s <address> <port>\nExample: %s 127.0.0.1 8080\n",
+                argv[0], argv[0]);
 
     return 0;
 }
