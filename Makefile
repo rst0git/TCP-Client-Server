@@ -7,3 +7,6 @@ server:
 
 client:
 	$(CC) -o client client.c
+
+clean:
+	rm server client
